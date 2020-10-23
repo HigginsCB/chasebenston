@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAIA,UACI,qBAAuB,CACvB,YAAa,CACb,qBAAsB,CACtB,oBACJ","file":"main.5b11c785.chunk.css","sourcesContent":["body{\r\n\r\n}\r\n\r\n.side-nav{\r\n    height: 100% !important;\r\n    display: flex;\r\n    flex-direction: column;\r\n    list-style-type: none;\r\n}"]}
