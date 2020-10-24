@@ -1,4 +1,5 @@
 import React from 'react';
+import Grid from '@material-ui/core/Grid'
 import Award from './Award';
 
 function createBadge(badge) {
@@ -11,7 +12,9 @@ function AwardCompany(props) {
             <a href={props.company.companyWeb}>
                 <h2>{props.company.companyName}</h2>
             </a>
-            {props.company.badge.map(createBadge)}
+            <Grid container spacing={1}>
+                {props.company.badge.map(createBadge)}
+            </Grid>
         </div>
     );
 }

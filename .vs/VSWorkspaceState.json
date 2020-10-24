@@ -1,11 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
     "\\src",
     "\\src\\components",
+    "\\src\\components\\Badges",
+    "\\src\\components\\Projects",
+    "\\src\\components\\WorkHistory",
+    "\\src\\content",
     "\\src\\pages",
     "\\src\\router"
   ],
-  "SelectedNode": "\\src\\router\\RoutePaths.js",
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }
