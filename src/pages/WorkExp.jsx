@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-// Build a component for each project and send in information
+// Build a component for each work exp and send in information
 
 function WorkExp() {
     return (

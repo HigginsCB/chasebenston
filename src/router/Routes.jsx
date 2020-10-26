@@ -17,8 +17,8 @@ function Routes() {
     return (
         <div>
             <Router>
-                <Grid container spacing={3}>
-                    <Grid item>
+                <Grid container spacing={1}>
+                    <Grid item xs={2}>
                         <ButtonGroup
                             orientation="vertical"
                             color="primary"
@@ -30,7 +30,7 @@ function Routes() {
                             <Button component={Link} to={'/chasebenston/projects'}>Projects</Button>
                         </ButtonGroup>
                     </Grid>
-                    <Grid item>
+                    <Grid item xs={8}>
                         <Switch>
                             <Route exact={true} path={RoutePaths.home} component={Home} />
                             <Route exact={true} path={RoutePaths.awards} component={Awards} />
