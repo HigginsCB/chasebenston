@@ -25,9 +25,9 @@ function Routes() {
                             aria-label="vertical contained primary button group"
                             variant="text"
                         >
-                            <Button component={Link} to={'/'}>Home</Button>
-                            <Button component={Link} to={'/awards'}>Awards</Button>
-                            <Button component={Link} to={'/projects'}>Projects</Button>
+                            <Button component={Link} to={'/chasebenston/'}>Home</Button>
+                            <Button component={Link} to={'/chasebenston/awards'}>Awards</Button>
+                            <Button component={Link} to={'/chasebenston/projects'}>Projects</Button>
                         </ButtonGroup>
                     </Grid>
                     <Grid item>
