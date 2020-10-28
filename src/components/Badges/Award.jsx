@@ -3,6 +3,14 @@ import { Typography, Grid, CardHeader, Card, CardContent } from '@material-ui/co
 
 // todo: add conditional rendering on rank if there is a rank show if not don't show
 
+function rank(badge) {
+    if (badge === "") {
+        return "";
+    } else {
+        return (<CardContent><Typography component="p">Current Rank: {badge}</Typography></CardContent>);
+    }
+}
+
 function Award(props) {
     return (
         <Grid item spacing={10}>
@@ -10,11 +18,7 @@ function Award(props) {
                 <CardHeader
                     title={props.badge[0]}
                 />
-                <CardContent>
-                    <Typography component="p">
-                        Current Rank: {props.badge[1]}
-                    </Typography>
-                </CardContent>
+                {rank(props.badge[1])}
             </Card>    
         </Grid>
     );

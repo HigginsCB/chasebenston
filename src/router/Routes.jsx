@@ -31,7 +31,7 @@ function Routes() {
                                 </ButtonGroup>
                             </Grid>
                         </Grid>
-                    <Grid item alignContent="center" xs="12">
+                    <Grid item alignContent="center" xs="8">
                         <Switch>
                             <Route exact={true} path={RoutePaths.home} component={Home} />
                             <Route exact={true} path={RoutePaths.awards} component={Awards} />
