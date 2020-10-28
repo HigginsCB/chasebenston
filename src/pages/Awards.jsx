@@ -14,7 +14,7 @@ function createAward(company) {
 
 function Awards() {
     return (
-        <Grid container direction="row">
+        <Grid container direction="column">
             <Grid item>
             <Typography variant="h4" component="h2">
                     Awards

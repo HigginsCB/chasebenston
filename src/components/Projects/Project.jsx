@@ -1,15 +1,15 @@
 import React from 'react';
-import { Card, CardHeader, CardContent, Grid, Typography } from '@material-ui/core';
+import { Card, CardHeader, CardContent, Grid, Typography, Link } from '@material-ui/core';
 
 function Project(props) {
     return (
         <Grid item>
             <Card>
                 <CardHeader
-                    link={props.projectLink}
-                    title={props.projectName}
+                    title={<Link target="_blank" href={props.projectLink} style={{ color: "inherit" }}>{props.projectName}</Link>}
                     style={{marginBottom: "-15px"}}
-                />
+                >
+                </CardHeader>
                 <CardContent>
                     <Typography
                         variant="h6"

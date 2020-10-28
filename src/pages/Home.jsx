@@ -2,9 +2,6 @@ import React from 'react';
 import { Typography, Grid } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 
-// <a target="_blank" href='http://github.com/higginscb'><Typography variant="caption" component="p">GitHub</Typography></a>
-//    <a target="_blank" href='http://linkedin.com/in/chasebenston'><Typography variant="caption" component="p">LinkedIn</Typography></a>
-
 
 function Home() {
     return (
@@ -18,7 +15,7 @@ function Home() {
                 </Grid>
                 <Grid item xs="8">
                     <div>
-                        <Typography>Most of my freetime in life has been spent on the computer, whether it be gaming, video editing, or just hanging out watching shows. 
+                        <Typography>Most of my freetime has been spent on the computer, whether it be gaming, video editing, or just hanging out watching shows. 
                             In May of 2020 I graduated from Indiana University - Southeast with a Bachelors of Science in Computer Science and a minor in Business. 
                             As a new graduate I am currently pursuing a career in the Software Engineering field with availability to relocate and start immediately.
                         </Typography>
