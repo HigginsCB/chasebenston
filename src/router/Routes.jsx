@@ -9,7 +9,7 @@ import Grid from '@material-ui/core/Grid';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Button from '@material-ui/core/Button';
 import "../App.css";
-import { Typography } from '@material-ui/core';
+import { Typography, BottomNavigation, BottomNavigationAction } from '@material-ui/core';
 
 //build sidebar component to navigate between pages
 //build work history page and make optional until filled
@@ -38,6 +38,20 @@ function Routes() {
                             <Route exact={true} path={RoutePaths.projects} component={Projects} />
                             <Route exact={true} path={RoutePaths.workexp} component={WorkExp} />
                         </Switch>
+                    </Grid>
+                    <Grid item>
+                        <BottomNavigation style={{ marginTop: "20px" }}>
+                            <BottomNavigationAction label="GitHub"
+                                target="_blank"
+                                href='http://github.com/higginscb'
+                                icon="GitHub"
+                            />
+                            <BottomNavigationAction label="GitHub"
+                                target="_blank"
+                                href='http://linkedin.com/in/chasebenston'
+                                icon="LinkedIn"
+                            />
+                        </BottomNavigation>
                     </Grid>
                 </Grid>
             </Router>
