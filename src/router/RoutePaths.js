@@ -1,8 +1,8 @@
 const RoutePaths = {
-    home: '/',
-    projects: '/projects',
-    awards: '/awards',
-    workexp: '/workexp'
+    home: '/chasebenston/',
+    projects: '/chasebenston/projects',
+    awards: '/chasebenston/awards',
+    workexp: '/chasebenston/workexp'
 };
 
 export default RoutePaths;
