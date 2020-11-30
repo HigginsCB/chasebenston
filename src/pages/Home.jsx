@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Home() {
     return (
         <div>
-            <Grid container justify="center" spacing={5} style={{ paddingTop: "25px" }}>
+            <Grid container alignItems="center" justify="center" spacing={5} style={{ paddingTop: "25px" }}>
                 <Grid item xs="4">
                     <img
                         src="https://media-exp1.licdn.com/dms/image/C4D03AQH6ilz88crKWg/profile-displayphoto-shrink_800_800/0?e=1609372800&v=beta&t=0UN09sp8EfiFHkbrXMlwZZ5I828r6XqFsqAScAx6w3c"
@@ -15,6 +15,7 @@ function Home() {
                 </Grid>
                 <Grid item xs="8">
                     <div>
+                        <Typography component="h2" variant="h4" style={{ paddingBottom: '2%' }}>About Me</Typography>
                         <Typography>Most of my freetime has been spent on the computer, whether it be gaming, video editing, or just hanging out watching shows. 
                             In May of 2020 I graduated from Indiana University - Southeast with a Bachelors of Science in Computer Science and a minor in Business. 
                             As a new graduate I am currently pursuing a career in the Software Engineering field with availability to relocate and start immediately.

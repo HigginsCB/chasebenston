@@ -3,7 +3,7 @@
         id: 1,
         companyName: "HackerRank",
         companyWeb: "https://www.hackerrank.com/chasebenston",
-        badge: [["Problem Solving", "★"], ["C++", "★★★★★"], ["Java", "★"], ["30 Days of Code","★★"], ["Java(Basic)", "Verified"]]
+        badge: [["Problem Solving", "★★"], ["C++", "★★★★★"], ["Java", "★"], ["30 Days of Code","★★"], ["Java(Basic)", "Verified"]]
     },
     {
         id: 2,

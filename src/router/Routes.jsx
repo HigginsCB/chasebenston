@@ -15,19 +15,20 @@ import { Typography, BottomNavigation, BottomNavigationAction } from '@material-
 //build work history page and make optional until filled
 
 function Routes() {
+
     return (
         <div>
             <Router>
-                <Grid container direction="column" alignItems="center" spacing={1}>
-                    <Grid container direction="row" alignItems="center" justify="center" spacing={5}>
+                <Grid container style={{ padding: 0, border: 0}} direction="column" alignItems="center" spacing={3}>
+                    <Grid container style={{ backgroundColor: '#78995f', color: 'white', margin: 0 }} direction="row" alignItems="center" justify="center" spacing={5}>
                             <Grid item alignContent="center">
                                 <Typography variant="h5">Chase Benston</Typography>
                             </Grid>
-                            <Grid item alignContent="center">
+                        <Grid item alignContent="center">
                                 <ButtonGroup variant="text" >
-                                <Button component={Link} to={RoutePaths.home}>Home</Button>
-                                <Button component={Link} to={RoutePaths.awards}>Awards</Button>
-                                <Button component={Link} to={RoutePaths.projects}>Projects</Button>
+                                <Button style={{ color: 'white' }} component={Link} to={RoutePaths.home}>Home</Button>
+                                <Button style={{ color: 'white' }} component={Link} to={RoutePaths.awards}>Awards</Button>
+                                <Button style={{ color: 'white' }} component={Link} to={RoutePaths.projects}>Projects</Button>
                                 </ButtonGroup>
                             </Grid>
                         </Grid>
