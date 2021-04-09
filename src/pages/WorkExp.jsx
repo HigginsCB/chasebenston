@@ -1,20 +1,21 @@
 import React from 'react';
+import Experience from '../components/Work/Experience';
+import experience from '../content/experience';
 import { Typography, Grid } from '@material-ui/core';
 
 
 // Build a component for each work exp and send in information
+function createExp(experience){
+    return <Experience exp={experience} />;
+}
 
 function WorkExp() {
     return (
         <Grid container direction="column">
-            <Typography component="h1">Current</Typography>
-                <h3>General Motors - Software Developer</h3>
-                <h5>Started - Feb 2021</h5>
-                <p></p>
-                <h3>Vividly Bold - Web Developer</h3>
-                <h5>Started - May 2020</h5>
-                <p>Consult with clients for web needs and assist with WordPress development.</p>
-            <h1>Past</h1>
+            <Typography component="h1" variant="h3">Current</Typography>
+                <Grid container spacing={1}>
+                    {experience.map(createExp)}
+                </Grid>
         </Grid>
     );
 }

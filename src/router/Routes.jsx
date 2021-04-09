@@ -29,6 +29,7 @@ function Routes() {
                                 <Button style={{ color: 'white' }} component={Link} to={RoutePaths.home}>Home</Button>
                                 <Button style={{ color: 'white' }} component={Link} to={RoutePaths.awards}>Awards</Button>
                                 <Button style={{ color: 'white' }} component={Link} to={RoutePaths.projects}>Projects</Button>
+                                <Button style={{ color: 'white' }} component={Link} to={RoutePaths.workexp}>Work Experience</Button>
                                 </ButtonGroup>
                             </Grid>
                         </Grid>
