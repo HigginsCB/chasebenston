@@ -12,7 +12,7 @@ function createExp(experience){
 function WorkExp() {
     return (
         <Grid container direction="column">
-            <Typography component="h1" variant="h3">Current</Typography>
+            <Typography component="h2" variant="h4">Current</Typography>
                 <Grid container spacing={1}>
                     {experience.map(createExp)}
                 </Grid>
